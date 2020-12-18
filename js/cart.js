@@ -1,9 +1,9 @@
 import React from 'react';
 
+function Cart(props){
 
-function Cart(){
     return(
-        <h3 className="cart">Cart<span className="shopCount">0</span></h3>
+        <h3 className="cart">Cart<span className="shopCount">{props.value}</span></h3>
     )
 }
 
